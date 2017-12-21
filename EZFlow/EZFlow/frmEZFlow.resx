@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PhoneAns.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+_ExtentX=1561
+_ExtentY=2910
+Pos_X=212
+Pos_Y=2328
+Pos_XP=8
+Pos_YP=88
+ControlName=PhoneAns
+BlockId=1056997440
+FramePage=0
+ContainerType=5
+NumNodes=5
+Dest0BlockID=1056997452
+Dest0.Conn=1
+Dest1BlockID=1056997452
+Dest1.Conn=1
+Dest2BlockID=0
+Dest3BlockID=0
+Dest4BlockID=0
+DelayTime=5
+LineType=0
+Mode=2
+LinesInGroup=1-200
+Mode=2
+MobileAppName=
+</value>
+  </data>
+  <data name="IntroGreeting.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+EntryGreeting.TermOnDTMF=0
+EntryGreeting.NumPhrase=2
+EntryGreeting.Phrase0.File=EZFLOW1.VAP
+EntryGreeting.Phrase0.Data=Thank you for calling E-Z-Flow.
+EntryGreeting.Phrase0.Type=262144
+EntryGreeting.Phrase0.DataExtra=
+EntryGreeting.Phrase1.File=EZFLOW1.VAP
+EntryGreeting.Phrase1.Data=Our business hours are from 9 am to 5 pm
+EntryGreeting.Phrase1.Type=262150
+EntryGreeting.Phrase1.DataExtra=
+HintGreeting.NumPhrase=0
+_ExtentX=1879
+_ExtentY=1720
+Pos_X=2540
+Pos_Y=2328
+Pos_XP=96
+Pos_YP=72
+ControlName=IntroGreeting
+BlockId=1056997452
+FramePage=0
+ContainerType=5
+NumNodes=2
+Dest0BlockID=1056997495
+Dest0.Conn=1
+Dest1BlockID=1056997495
+Dest1.Conn=1
+Comment=Use this page to document the configuration for this control
+FastForwardDigit=0
+RewindDigit=0
+PauseDigit=0
+FastFwdSecs=1
+RewindSecs=2
+PauseSecs=20
+LouderDigit=0
+SofterDigit=0
+TerminateOnSpeech=0
+MinSpeechTermTime=50
+</value>
+  </data>
+  <data name="GetCustInfo.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+maxRetries=3
+EntryGreeting.NumPhrase=1
+EntryGreeting.Phrase0.File=EZFLOW1.VAP
+EntryGreeting.Phrase0.Data=For product information, press 1. For technical support, press 2 or to leave the system, press pound.
+EntryGreeting.Phrase0.Type=262145
+EntryGreeting.Phrase0.DataExtra=
+HintGreeting.NumPhrase=0
+NumConditions=3
+Condition0.Name=Product Info (1)
+Condition0.Data=1
+Condition0.UseVB=0
+Condition0.Data2=
+Condition1.Name=Tech. Support (2)
+Condition1.Data=2
+Condition1.UseVB=0
+Condition1.Data2=
+Condition2.Name=Exit (#)
+Condition2.Data=#
+Condition2.UseVB=0
+Condition2.Data2=
+IUseMenuMode=0
+NumMenuRoutes=0
+_ExtentX=3096
+_ExtentY=2117
+Pos_X=5503
+Pos_Y=2328
+Pos_XP=208
+Pos_YP=80
+ControlName=GetCustInfo
+BlockId=1056997495
+FramePage=0
+ContainerType=5
+NumNodes=3
+Dest0BlockID=1056997513
+Dest0.Conn=1
+Dest1BlockID=1056997515
+Dest1.Conn=1
+Dest2BlockID=1056997506
+Dest2.Conn=1
+Comment=Use this page to document the configuration for this control
+InvalidGreeting.NumPhrase=1
+InvalidGreeting.Phrase0.File=vbvoice30.vap
+InvalidGreeting.Phrase0.Data=that was not a valid entry
+InvalidGreeting.Phrase0.Type=327679
+InvalidGreeting.Phrase0.DataExtra=
+SilenceGreeting.NumPhrase=0
+MaxKeys=0
+MaxSil=3
+TermDtmf=0
+RetryOnSilence=0
+useDefaultError=1
+DisableHelp=1
+MaskLogDigit=0
+</value>
+  </data>
+  <data name="onHook1.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+EntryGreeting.TermOnDTMF=0
+EntryGreeting.NumPhrase=1
+EntryGreeting.Phrase0.File=vbvoice30.vap
+EntryGreeting.Phrase0.Data=goodbye
+EntryGreeting.Phrase0.Type=327679
+EntryGreeting.Phrase0.DataExtra=
+HintGreeting.NumPhrase=0
+_ExtentX=1429
+_ExtentY=1482
+Pos_X=12277
+Pos_Y=2540
+Pos_XP=463
+Pos_YP=95
+ControlName=onHook1
+BlockId=1056997506
+FramePage=0
+ContainerType=5
+Comment=Use this page to document the configuration for this control
+</value>
+  </data>
+  <data name="ProductInfo.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+EntryGreeting.TermOnDTMF=0
+EntryGreeting.NumPhrase=2
+EntryGreeting.Phrase0.File=EZFLOW1.VAP
+EntryGreeting.Phrase0.Data=E-Z-Flow is a provider of order-processing software solutions.
+EntryGreeting.Phrase0.Type=262146
+EntryGreeting.Phrase0.DataExtra=
+EntryGreeting.Phrase1.File=EZFLOW1.VAP
+EntryGreeting.Phrase1.Data=E-Z-Flow is proud to announce the release of E-Z-Order 2.0.
+EntryGreeting.Phrase1.Type=262147
+EntryGreeting.Phrase1.DataExtra=
+HintGreeting.NumPhrase=0
+_ExtentX=1852
+_ExtentY=1720
+Pos_X=9948
+Pos_Y=1058
+Pos_XP=376
+Pos_YP=40
+ControlName=ProductInfo
+BlockId=1056997513
+FramePage=0
+ContainerType=5
+NumNodes=2
+Dest0BlockID=1056997495
+Dest0.Conn=1
+Dest1BlockID=1056997495
+Dest1.Conn=1
+Comment=Use this page to document the configuration for this control
+FastForwardDigit=0
+RewindDigit=0
+PauseDigit=0
+FastFwdSecs=1
+RewindSecs=2
+PauseSecs=20
+LouderDigit=0
+SofterDigit=0
+TerminateOnSpeech=0
+MinSpeechTermTime=50
+</value>
+  </data>
+  <data name="SupportInfo.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+EntryGreeting.TermOnDTMF=0
+EntryGreeting.NumPhrase=2
+EntryGreeting.Phrase0.File=EZFLOW1.VAP
+EntryGreeting.Phrase0.Data=For files and forums, you can visit our web site
+EntryGreeting.Phrase0.Type=262148
+EntryGreeting.Phrase0.DataExtra=
+EntryGreeting.Phrase1.File=EZFLOW1.VAP
+EntryGreeting.Phrase1.Data=or to contact our support hotline, dial 1-123-456-7890.
+EntryGreeting.Phrase1.Type=262149
+EntryGreeting.Phrase1.DataExtra=
+HintGreeting.NumPhrase=0
+_ExtentX=1852
+_ExtentY=1720
+Pos_X=9948
+Pos_Y=3598
+Pos_XP=376
+Pos_YP=136
+ControlName=SupportInfo
+BlockId=1056997515
+FramePage=0
+ContainerType=5
+NumNodes=2
+Dest0BlockID=1056997495
+Dest0.Conn=1
+Dest1BlockID=1056997495
+Dest1.Conn=1
+Comment=Use this page to document the configuration for this control
+FastForwardDigit=0
+RewindDigit=0
+PauseDigit=0
+FastFwdSecs=1
+RewindSecs=2
+PauseSecs=20
+LouderDigit=0
+SofterDigit=0
+TerminateOnSpeech=0
+MinSpeechTermTime=50
+</value>
+  </data>
+  <data name="vbvFrame1.PropertyBag" xml:space="preserve">
+    <value>
+_Version=655362
+LanguageVer=1
+ContainerType=5
+ControlName=vbvFrame1
+_ExtentX=14817
+_ExtentY=5927
+_StockProps=2
+PageList.NumPage=1
+PageList.Page0.Name=Page1
+PageList.Page0.X=10
+PageList.Page0.Y=20
+CurrPage=0
+NumFields=0
+Playformat=0
+VoiceDir=examples\dotNetExamples\Csharp\EZFlow\ulaw\
+LogDir=C:\ProgramData\Pronexus\VBVoice\Logs\
+TimeFormat=0
+DateOrder=0
+LanguageId=0
+NumControls=6
+Control0=0,PhoneAns
+Control1=0,IntroGreeting
+Control2=0,GetCustInfo
+Control3=0,onHook1
+Control4=0,ProductInfo
+Control5=0,SupportInfo
+Comment=Use this page to document the configuration for this control
+LangProgID=Pronexus.Language.1
+TTSSpeaker=
+ASREngine=
+NuancePackages=
+ConfigFile=
+RSTDictionary=
+UsingTTS=0
+UsingASR=0
+IsASlave=0
+SlaveName=
+TypeOfRecEngine=1
+</value>
+  </data>
+</root>
